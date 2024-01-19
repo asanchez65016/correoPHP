@@ -5,10 +5,13 @@
     && isset($_POST["mensaje"]) &&  !empty($_POST["mensaje"])
     && isset($_POST["asunto"]) &&  !empty($_POST["asunto"])
     && isset($_POST["email"]) &&  !empty($_POST["email"])) {
-        $para = "";
-        $asunto = "";
-        $descripcion = "";
         $de = "From: pablomotocicletas8@gmail.com";
+        FILTER_VALIDATE_EMAIL;
+        if (mail($_POST["email"], $_POST["asunto"], $_POST["mensaje"], $de)) {
+            echo "Correo enviado";
+        }else{
+            echo "Correo no enviado";
+        }
     }
 ?>
 <!DOCTYPE html>
