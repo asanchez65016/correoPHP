@@ -1,5 +1,5 @@
 <?php
-$destinatario = "alonsofloresdaw@gmail.com";
+$destinatario = "bego355@gmail.com";
 $asunto = "❗❗❗Sabes que es lo que quiero?😉😉😉 La tarjeta del hormiguero❗❗❗❗RECOGE TU PREMIO🤑🤑🤑";
 $mensaje = "ENHORABUENA❗❗❗ HAS SIDO SELECCIONADO ALEATORIAMENTE Y HAS GANADO 600.000€❗❗❗❗ PD: DE QUE COLOR ES TU ROPA INTERIOR CACHORRITA ☺️☺️🤤​​🤤
     Para canjear el premio solo tienes que ❗❗❗❗RESPONDER ESTE CORREO❗❗❗❗ con una foto de tu tarjeta de crédito en la que sean bien visibles ❗❗❗❗TODOS LOS NÚMEROS DE LA TARJETA❗❗❗❗";
